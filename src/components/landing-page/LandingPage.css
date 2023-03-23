@@ -1,5 +1,10 @@
 /* LandingPage.css */
 
+@font-face {
+  font-family: 'Italianno';
+  src: url('../../../public/fonts/Italianno-Regular.ttf') format('truetype');
+}
+
 .landing-page {
   background-color: #9D5CEF;
   display: flex;
@@ -10,17 +15,25 @@
   padding: 0;
 }
 
-.image-section {
-  width: 100%;
+.image-container {
+  background-color: #404040;
+  width: 50%;
   max-width: 1667px;
-  height: auto;
+  height: 40%;
   max-height: 1033px;
-  background-image: url('kisspng-wedding-invitation-clip-art-lover-wedding-5aa46fefd00ca3.0181652115207259998522.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.image-section {
+  width: 100%;
+  height: 100%;
+  background-image: url('./kisspng-wedding-invitation-clip-art-lover-wedding-5aa46fefd00ca3.0181652115207259998522.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .enter-button {
   position: fixed;
   bottom: 40px;
@@ -38,4 +51,25 @@
 
 .enter-button:hover {
   background-color: #814ad9;
+}
+
+/* LandingPage.css */
+
+.wedding-planner {
+  font-family: 'Italianno', cursive;
+  font-size: 36px;
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.plan-your-own-wedding {
+  font-family: 'Italianno', cursive;
+  font-size: 36px;
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
