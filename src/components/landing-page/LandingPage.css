@@ -1,0 +1,41 @@
+/* LandingPage.css */
+
+.landing-page {
+  background-color: #9D5CEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.image-section {
+  width: 100%;
+  max-width: 1667px;
+  height: auto;
+  max-height: 1033px;
+  background-image: url('kisspng-wedding-invitation-clip-art-lover-wedding-5aa46fefd00ca3.0181652115207259998522.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.enter-button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  padding: 15px 30px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  background-color: #9D5CEF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.enter-button:hover {
+  background-color: #814ad9;
+}
