@@ -1,0 +1,48 @@
+.confirmation-booking {
+    background-color: #9D5CEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Italianno', cursive;
+    color: white;
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .wedding-title {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+  
+  .wedding-date {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .wedding-image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    max-height: 150px;
+    transform: translateY(-50%);
+  }
+  
+  .wedding-theme {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .wedding-location {
+    font-size: 24px;
+  }
+  
