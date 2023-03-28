@@ -4,7 +4,6 @@
   font-family: 'Italianno';
   src: url('../../../public/fonts/Italianno-Regular.ttf') format('truetype');
 }
-
 .landing-page {
   background-color: #9D5CEF;
   display: flex;
@@ -14,7 +13,6 @@
   margin: 0;
   padding: 0;
 }
-
 .image-container {
   background-color: #404040;
   width: 100%;
@@ -24,7 +22,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .image-section {
   position: absolute;
   width: 100%;
@@ -50,13 +47,10 @@
   cursor: pointer;
   outline: none;
 }
-
 .enter-button:hover {
-  background-color: #814ad9;
+  background-color: #814AD9;
 }
-
 /* LandingPage.css */
-
 .wedding-planner {
   font-family: 'Italianno', cursive;
   font-size: 80px;
@@ -65,7 +59,6 @@
   top: 0;
   right: 40%;
 }
-
 .plan-your-own-wedding {
   font-family: 'Italianno', cursive;
   font-size: 40px;
@@ -75,3 +68,10 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+
+
+
+
+
+
