@@ -2,6 +2,8 @@
 
 import React from 'react';
 import './CouplesQuestionnaire.css';
+import Female from './Female.png';
+import Male from './Male.png';
 
 const CouplesQuestionnaire = () => {
   return (
@@ -11,11 +13,11 @@ const CouplesQuestionnaire = () => {
         <div className="gender-select">
         <label>
             <input type="radio" name="gender" value="male" />
-            <img src={`${process.env.PUBLIC_URL}/../../../../public/images/male.png`} alt="Male" className="male-icon" />
+            <img src={Male} alt="Male icon" className="male-icon" />
           </label>
           <label>
             <input type="radio" name="gender" value="female" />
-            <img src={`${process.env.PUBLIC_URL}/../../../../public/images/Female.png`} alt="Female" className="female-icon" />
+            <img src={Female} alt="Female icon" className="female-icon" />
           </label>        </div>
         <input type="text" className="questionnaire-input" placeholder="Couple's Name" />
         <input type="text" className="questionnaire-input" placeholder="Wedding Theme" />
