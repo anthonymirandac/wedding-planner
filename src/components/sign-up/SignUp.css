@@ -45,7 +45,7 @@
     transition: background-color 0.3s;
   }
   
-  .submit-button:hover {
+  .submit-button:hover {    
     background-color: #333;
   }
   
