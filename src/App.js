@@ -3,7 +3,7 @@
 import React from 'react';
 import './App.css';
 import LandingPage from './/components/landing-page/LandingPage';
-import SignUp from './/components/sign-up/SignUp';
+import CouplesQuestionnaire from './/components/couples-questionnaire/CouplesQuestionnaire';
 import Gallery from './/components/gallery/Gallery'
 import ConfirmationBooking from './/components/confirmation-booking/ConfirmationBooking';
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <LandingPage />
-      <SignUp />
+      <CouplesQuestionnaire />
       <Gallery />
       <ConfirmationBooking />
     </div>
