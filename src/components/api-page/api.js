@@ -1,4 +1,5 @@
-// //import React from "react";
+// import React from "react";
+// import axios from "axios";
 // const request = require('request');
 
 // const options = {
@@ -32,22 +33,25 @@ const options = {
   method: 'GET',
   url: 'https://local-business-data.p.rapidapi.com/search',
   params: {
-    query: 'Wedding Venues  in San Francisco, USA',
+    query: 'Wedding Venues in London, UK',
     limit: '20',
     lat: '37.359428',
     lng: '-121.925337',
     zoom: '13',
     language: 'en',
-    region: 'us'
+    region: 'uk'
   },
   headers: {
     'X-RapidAPI-Key': 'da9f223eecmsh2df64a8471b61d2p1d305djsnc532ac13ff0f',
     'X-RapidAPI-Host': 'local-business-data.p.rapidapi.com'
   }
 };
-
 axios.request(options).then(function (response) {
 	console.log(response.data);
 }).catch(function (error) {
 	console.error(error);
 });
+
+
+
+// export default api;
