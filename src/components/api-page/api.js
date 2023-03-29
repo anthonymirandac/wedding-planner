@@ -55,3 +55,13 @@ axios.request(options).then(function (response) {
 
 
 // export default api;
+
+// varaiables to access
+const form = document.querySelector('form');
+
+// Event Listener for user input
+
+//Fetch required data 
+
+// Show the data provided by the API to the user
+
