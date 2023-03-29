@@ -11,7 +11,6 @@ import ConfirmationBooking from './/components/confirmation-booking/Confirmation
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       <LandingPage />
       <CouplesQuestionnaire />
       <Gallery />
