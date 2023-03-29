@@ -1,7 +1,9 @@
 // LandingPage.js
 
 import React from 'react';
+import CouplesQuestionnaire from '../couples-questionnaire/CouplesQuestionnaire';
 import './LandingPage.css';
+
 
 const LandingPage = () => {
   return (
@@ -11,9 +13,10 @@ const LandingPage = () => {
       </div>
       <h1 className="wedding-planner">Wedding Planner</h1>
       <h2 className="plan-your-own-wedding">Plan Your Own Wedding</h2>
-      <button className="enter-button" onClick={() => console.log('Enter button clicked')}>
+      <button className="enter-button" onClick={CouplesQuestionnaire}>
         Enter
       </button>
+
     </div>
   );
 }
