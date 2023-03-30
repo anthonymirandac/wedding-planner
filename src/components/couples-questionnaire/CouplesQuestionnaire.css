@@ -1,6 +1,6 @@
-/* SignUp.css */
+/* CouplesQuestionnaire.css */
 
-.sign-up {
+.questionnaire {
     background-color: #9D5CEF;
     display: flex;
     flex-direction: column;
@@ -11,20 +11,34 @@
     padding: 0;
   }
   
-  .sign-up-title {
+  .questionnaire-title {
     font-family: 'Italianno', cursive;
     font-size: 36px;
     color: white;
     margin-bottom: 20px;
   }
   
-  .sign-up-form {
+  .questionnaire-form {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  .sign-up-input {
+  .gender-select {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .gender-select label {
+    margin: 0 10px;
+  }
+  
+  .male-icon,
+  .female-icon {
+    /* Add your gender icon styles here */
+  }
+  
+  .questionnaire-input {
     width: 300px;
     padding: 10px;
     font-size: 16px;
@@ -34,7 +48,7 @@
   }
   
   .submit-button {
-    padding: 15px 30px;
+    padding: 10px 40px 40px 40px;
     font-size: 16px;
     color: white;
     background-color: #404040;
@@ -45,7 +59,6 @@
     transition: background-color 0.3s;
   }
   
-  .submit-button:hover {    
+  .submit-button:hover {
     background-color: #333;
   }
-  
