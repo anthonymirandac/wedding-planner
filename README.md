@@ -8,7 +8,7 @@ https://wedding-planner-edx.netlify.app/
 ## Author
 - [@ammocodes] (https://github.com/ammocodes) - React
 - [@mystfreak] (https://github.com/mystfreak) - Figma / Design
-- [@nj-09] (https://github.com/nj-09) API
+- [@nj-09] (https://github.com/nj-09) API/Presentation
 - [@seriksa3] (https://github.com/seriksa3) API
 
 
