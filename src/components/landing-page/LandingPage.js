@@ -3,11 +3,13 @@
 import React from 'react';
 import CouplesQuestionnaire from '../couples-questionnaire/CouplesQuestionnaire';
 import './LandingPage.css';
+import MaterialUiNavbar from '../MaterialUiNavbar/MaterialUiNavbar';
 
 
 const LandingPage = () => {
   return (
     <div className="landing-page">
+      <MaterialUiNavbar />
       <div className="image-container">
         <div className="image-section"></div>
       </div>
