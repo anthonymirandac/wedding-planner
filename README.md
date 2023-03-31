@@ -9,7 +9,7 @@ https://wedding-planner-edx.netlify.app/
 - [@ammocodes] (https://github.com/ammocodes) - React/ MaterialUI 
 - [@mystfreak] (https://github.com/mystfreak) - Figma / Design / API
 - [@nj-09] (https://github.com/nj-09) API / Presentation
-- [@seriksa3] (https://github.com/seriksa3) API / Navbar
+- [@seriksa3] (https://github.com/seriksa3) API / Navbar / Presentation
 
 
 ## Demo
